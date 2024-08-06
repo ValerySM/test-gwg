@@ -1,0 +1,25 @@
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  z-index: 1000;
+}
+
+.loading-screen img {
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: contain;
+}
+
+.loading-screen p {
+  color: white;
+  font-size: 24px;
+  margin-top: 20px;
+}
